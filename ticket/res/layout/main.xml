@@ -5,16 +5,60 @@
     android:layout_height="fill_parent"
     >
 <Button android:text="@string/buyButtonText" android:layout_height="wrap_content" android:id="@+id/buy" android:layout_width="match_parent" android:gravity="center|fill_vertical" android:clickable="true" android:soundEffectsEnabled="true"></Button>
-<TextView android:layout_height="wrap_content" android:id="@+id/TextView01" android:layout_width="fill_parent" android:text="@string/hello"></TextView>
 
 
 
 
 
-<GridView android:id="@+id/GridView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></GridView>
-<TimePicker android:id="@+id/TimePicker01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TimePicker>
 
 
 
-<VideoView android:id="@+id/VideoView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></VideoView>
+
+
+
+
+<TextView android:layout_width="fill_parent" android:id="@+id/TextView01" android:text="@string/hello" android:layout_height="wrap_content"></TextView>
+
+
+
+
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Spinner01"></Spinner>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<EditText android:layout_width="wrap_content" android:text="@+id/EditText01" android:id="@+id/EditText01" android:layout_height="wrap_content"></EditText><AbsoluteLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/AbsoluteLayout01" android:visibility="visible"></AbsoluteLayout>
+
+
+
+
+
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Button01" android:text="@+id/Button01" android:clickable="true"></Button>
+<ToggleButton android:text="@+id/ToggleButton01" android:layout_width="wrap_content" android:id="@+id/ToggleButton01" android:layout_height="wrap_content"></ToggleButton>
+
+
+<TextView android:text="@+id/TextView02" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="@+id/TextView03" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="@+id/TextView04" android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 </LinearLayout>

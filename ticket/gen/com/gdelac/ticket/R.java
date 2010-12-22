@@ -14,18 +14,24 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int GridView01=0x7f050002;
+        public static final int AbsoluteLayout01=0x7f050004;
+        public static final int Button01=0x7f050005;
+        public static final int EditText01=0x7f050003;
+        public static final int Spinner01=0x7f050002;
         public static final int TextView01=0x7f050001;
-        public static final int TimePicker01=0x7f050003;
-        public static final int VideoView01=0x7f050004;
+        public static final int TextView02=0x7f050007;
+        public static final int TextView03=0x7f050008;
+        public static final int TextView04=0x7f050009;
+        public static final int ToggleButton01=0x7f050006;
         public static final int buy=0x7f050000;
     }
     public static final class layout {
         public static final int main=0x7f030000;
     }
     public static final class string {
-        public static final int app_name=0x7f040001;
-        public static final int buyButtonText=0x7f040002;
+        public static final int app_name=0x7f040002;
+        public static final int buyButtonText=0x7f040003;
         public static final int hello=0x7f040000;
+        public static final int noSerSel=0x7f040001;
     }
 }
